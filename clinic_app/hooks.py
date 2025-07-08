@@ -5,6 +5,13 @@ app_description = "Manage doctors, patients, and appointments"
 app_email = "ameygolait123@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    {
+        "dt": "DocType",
+        "filters": [["name", "in", ["Clinic Appointment", "Doctor", "Patient", "Prescription", "Medications"]]]
+    }
+]
+
 # Apps
 # ------------------
 
