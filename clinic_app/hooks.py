@@ -5,12 +5,26 @@ app_description = "Manage doctors, patients, and appointments"
 app_email = "ameygolait123@gmail.com"
 app_license = "mit"
 
+# Fixtures for deployment
 fixtures = [
     {
         "dt": "DocType",
-        "filters": [["name", "in", ["Clinic Appointment", "Doctor", "Patient", "Prescription", "Medications"]]]
+        "filters": [
+            ["name", "in", ["Clinic Appointment", "Doctor", "Patient", "Prescription", "Medications"]]
+        ]
     }
 ]
+
+# Custom link field title
+doctype_list_title_field = {
+    "Clinic Appointment": "custom_display"
+}
+
+# (Optional) If you're overriding DocType class
+# override_doctype_class = {
+#     "Clinic Appointment": "clinic_app.clinic_app.doctype.clinic_appointment.clinic_appointment.ClinicAppointment"
+# }
+
 
 # Apps
 # ------------------
