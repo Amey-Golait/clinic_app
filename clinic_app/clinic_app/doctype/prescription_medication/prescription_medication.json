@@ -1,0 +1,65 @@
+{
+ "_liked_by": "[\"ameygolait123@gmail.com\", \"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-04 21:39:35.869231",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_sovp",
+  "dosage",
+  "duration",
+  "instructions",
+  "frequency_per_day"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_sovp",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Medicine Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dosage",
+   "fieldtype": "Data",
+   "label": "Dosage"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Duration (Days)",
+   "options": "3 Days\n5 Days\n7 Days\n10 Days\n15 Days\n30 Days",
+   "reqd": 1
+  },
+  {
+   "fieldname": "instructions",
+   "fieldtype": "Text",
+   "label": "Instructions"
+  },
+  {
+   "fieldname": "frequency_per_day",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Frequency per Day",
+   "options": "Once Daily\nTwice Daily\nThrice Daily\nEvery 6 Hours\nEvery 8 Hours\nAs Needed",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-10 12:17:46.057837",
+ "modified_by": "Administrator",
+ "module": "Clinic App",
+ "name": "Prescription Medication",
+ "owner": "ameygolait123@gmail.com",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "appointment_date": "2025-07-07",
+  "appointment_time": "20:38:21",
+  "display_title": null,
+  "docstatus": 0,
+  "doctor": "Dr. Vaishnavi Dahe",
+  "doctype": "Clinic Appointment",
+  "modified": "2025-07-04 20:38:27.166893",
+  "name": "k1f2s86ea9",
+  "notes": null,
+  "patient": "Amey Golait",
+  "status": "Scheduled"
+ },
+ {
+  "appointment_date": "2025-07-10",
+  "appointment_time": "20:41:06",
+  "display_title": null,
+  "docstatus": 0,
+  "doctor": "Dr. Vaishnavi Dahe",
+  "doctype": "Clinic Appointment",
+  "modified": "2025-07-04 20:41:10.683208",
+  "name": "lkirtchc6q",
+  "notes": null,
+  "patient": "Amey Golait",
+  "status": "Scheduled"
+ }
+]
