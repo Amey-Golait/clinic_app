@@ -1,35 +1,32 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-07-10 11:56:01.341627",
+ "creation": "2025-07-15 17:08:40.118943",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "appointment",
   "patient",
   "doctor",
   "prescription_date",
+  "appointment",
   "medications",
   "notes"
  ],
  "fields": [
   {
-   "fetch_from": "appointment.patient",
-   "fetch_if_empty": 1,
    "fieldname": "patient",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Patient",
    "options": "Patient",
-   "read_only": 1,
    "reqd": 1
   },
   {
-   "fetch_from": "appointment.doctor",
    "fieldname": "doctor",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Doctor",
    "options": "Doctor",
-   "read_only": 1,
    "reqd": 1
   },
   {
@@ -63,7 +60,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-10 15:51:22.099188",
+ "modified": "2025-07-15 17:13:21.956183",
  "modified_by": "Administrator",
  "module": "Clinic App",
  "name": "Prescription",
@@ -88,6 +85,6 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "appointment",
+ "title_field": "prescription_date",
  "track_changes": 1
 }

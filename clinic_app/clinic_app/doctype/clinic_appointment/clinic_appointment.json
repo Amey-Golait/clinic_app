@@ -1,18 +1,16 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-07-10 12:41:10.193394",
+ "creation": "2025-07-15 17:08:39.887594",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "appointment_date",
   "appointment_time",
-  "end_time",
   "doctor",
   "patient",
   "status",
-  "notes",
-  "custom_display"
+  "notes"
  ],
  "fields": [
   {
@@ -27,11 +25,6 @@
    "fieldtype": "Time",
    "label": "Appointment Time",
    "reqd": 1
-  },
-  {
-   "fieldname": "end_time",
-   "fieldtype": "Time",
-   "label": "End Time"
   },
   {
    "fieldname": "doctor",
@@ -61,19 +54,13 @@
    "fieldname": "notes",
    "fieldtype": "Small Text",
    "label": "Notes"
-  },
-  {
-   "fieldname": "custom_display",
-   "fieldtype": "Data",
-   "label": "Display Name",
-   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2025-07-10 15:50:35.371986",
+ "modified": "2025-07-15 17:13:14.012500",
  "modified_by": "Administrator",
  "module": "Clinic App",
  "name": "Clinic Appointment",
@@ -98,6 +85,6 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "custom_display",
+ "title_field": "appointment_date",
  "track_changes": 1
 }

@@ -1,8 +1,6 @@
 {
  "actions": [],
- "allow_rename": 1,
- "autoname": "field:patient_name",
- "creation": "2025-07-10 11:56:00.733689",
+ "creation": "2025-07-15 17:08:39.684298",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -41,7 +39,6 @@
    "label": "Email"
   },
   {
-   "description": "What's App Mobile Number",
    "fieldname": "phone",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -58,11 +55,10 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-10 15:59:39.140384",
+ "modified": "2025-07-15 17:12:17.769124",
  "modified_by": "Administrator",
  "module": "Clinic App",
  "name": "Patient",
- "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

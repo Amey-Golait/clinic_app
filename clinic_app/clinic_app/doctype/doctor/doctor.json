@@ -2,15 +2,15 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:doctor_name",
- "creation": "2025-07-10 11:56:00.198599",
+ "creation": "2025-07-15 17:08:39.300418",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "doctor_name",
   "specialization",
-  "status",
-  "doctor_time_slot",
-  "off_day"
+  "available_from",
+  "available_to",
+  "status"
  ],
  "fields": [
   {
@@ -37,22 +37,24 @@
    "reqd": 1
   },
   {
-   "fieldname": "doctor_time_slot",
-   "fieldtype": "Table",
-   "label": "Doctor Time Slot",
-   "options": "Doctor Time Slot",
+   "fieldname": "available_from",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Available From",
    "reqd": 1
   },
   {
-   "fieldname": "off_day",
-   "fieldtype": "Small Text",
-   "label": "Off Day"
+   "fieldname": "available_to",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Available To",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-10 12:17:04.602276",
+ "modified": "2025-07-15 17:13:03.678706",
  "modified_by": "Administrator",
  "module": "Clinic App",
  "name": "Doctor",
